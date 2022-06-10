@@ -4,7 +4,7 @@ public class IfSalarioMinimo{
     public static void main(String args[]) {
         Scanner in = new Scanner (System.in);
         
-        System.out.println ("Digite seu salário:");
+        System.out.print("Digite seu salário:");
         double salario=in.nextDouble();
 
         if (salario>954) {
