@@ -4,10 +4,10 @@ public class AreaPerimetroDoRetangulo {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		System.out.println("Digite o valor do maior lado");
+		System.out.print("Digite o valor do maior lado");
 		double ladoMaior =in.nextDouble();
 
-		System.out.println("Digite o valor do menor lado");
+		System.out.print("Digite o valor do menor lado");
        	 	double ladoMenor =in.nextDouble();
 
         	System.out.println("A área do retângulo é: " +(ladoMaior*ladoMenor));
