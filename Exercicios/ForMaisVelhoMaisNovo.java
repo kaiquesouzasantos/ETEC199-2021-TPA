@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class ForMaisVelhoMaisNovo{
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -10,16 +9,16 @@ public class ForMaisVelhoMaisNovo{
 
         for(int cont=1;cont<=5;cont++) {
 
-            System.out.println("Digite o nome do usuário:");
+            System.out.print("Digite o nome do usuário:");
             user1 = in.next();
 
-            System.out.println("Digite a idade do usuário:");
+            System.out.print("Digite a idade do usuário:");
             idade1 = in.nextInt();
 
-            System.out.println("Digite o nome do usuário:");
+            System.out.print("Digite o nome do usuário:");
             user2 = in.next();
 
-            System.out.println("Digite a idade do usuário:");
+            System.out.print("Digite a idade do usuário:");
             idade2 = in.nextInt();
 
             if (idade1 >= idade2) {
