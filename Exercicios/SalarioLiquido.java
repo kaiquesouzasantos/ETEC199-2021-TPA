@@ -2,22 +2,17 @@ import java.util.Scanner;
 
 public class SalarioLiquido{
     public static void main(String args[]) {
-        
         Scanner in= new Scanner (System.in);
         
-        // hora de aula (h), aulas aplicadas (a),contribuição ao INSS (c), salario liquido (s)
-        double h,a,c,s;
+        System.out.print("Digite o valor da hora de aula: R$");
+        double valorHora = in.nextDouble();
         
-        System.out.println ("Digite o valor da hora de aula em R$:");
-        h =in.nextDouble();
-        System.out.println ("Digite o número de aulas aplicadas no mês:");
-        a =in.nextDouble();
-        System.out.println ("Digite o percentual de contribuição ao INSS:");
-        c =in.nextDouble();
+        System.out.print("Digite o número de aulas aplicadas no mês:");
+        double aulas =in.nextDouble();
+        
+        System.out.print("Digite o percentual de contribuição ao INSS:");
+        double imposto = in.nextDouble();
 
-        s=(h*a)- ((h*a)*(c/100));
-       
-        System.out.println ("Seu salário liquido estimado é de R$"+ s);
+        System.out.println("Seu salário liquido estimado é de R$"+((valorHora * aulas) - ((valorHora * aulas) * (imposto/100))));
     }
 }
-
