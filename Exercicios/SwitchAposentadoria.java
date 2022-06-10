@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class SwitchAposentadoria {
     public static void main(String[] args) {
-    
         Scanner in=new Scanner(System.in);
 
         int selecao,aAtual,aNascimento,resultado,resultadoA;
 
-        System.out.println("Digite conforme seu sexo (1 para feminino, 2 para masculino): ");
+        System.out.print("Digite conforme seu sexo (1 para feminino, 2 para masculino): ");
         selecao=in.nextInt();
 
         switch (selecao) {
