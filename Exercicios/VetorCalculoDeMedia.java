@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class VetorCalculoDeMedia {
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
 
         double[] num = new double[10];
