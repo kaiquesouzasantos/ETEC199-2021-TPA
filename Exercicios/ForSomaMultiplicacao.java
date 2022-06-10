@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class ForSomaMultiplicacao {
     public static void main(String args[]) {
-
         Scanner in = new Scanner (System.in);
 
         int num, mult=0;
