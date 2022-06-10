@@ -8,7 +8,7 @@ public class SalarioLiquido{
         double valorHora = in.nextDouble();
         
         System.out.print("Digite o número de aulas aplicadas no mês:");
-        double aulas =in.nextDouble();
+        int aulas =in.nextDouble();
         
         System.out.print("Digite o percentual de contribuição ao INSS:");
         double imposto = in.nextDouble();
