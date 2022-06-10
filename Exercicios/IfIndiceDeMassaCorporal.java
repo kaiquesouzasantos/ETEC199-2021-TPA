@@ -4,10 +4,10 @@ public class IfIndiceDeMassaCorporal {
     public static void main(String[] args){
         Scanner in= new Scanner (System.in);
 
-        System.out.println ("Digite seu peso em Kg(quilos):");
+        System.out.print("Digite seu peso em Kg(quilos):");
         double peso=in.nextDouble();
         
-        System.out.println ("Digite sua altura em M(metro):");
+        System.out.print("Digite sua altura em M(metro):");
         double altura=in.nextDouble();
 
         double imc=peso/(altura*altura);
