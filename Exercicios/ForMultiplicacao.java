@@ -6,7 +6,7 @@ public class ForMultiplicacao {
 
         int num,multiplicador=0,total=0;
 
-        System.out.println("Informe um número: ");
+        System.out.print("Informe um número: ");
         num = in.nextInt();
 
         for (int cont=0; cont<=10;cont++,total=num*++multiplicador) {
