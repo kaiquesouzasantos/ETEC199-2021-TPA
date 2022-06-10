@@ -2,17 +2,15 @@ import java.util.Scanner;
 
 public class IfIndiceDeMassaCorporal {
     public static void main(String[] args){
-
         Scanner in= new Scanner (System.in);
 
-        double peso,altura,imc;
-
         System.out.println ("Digite seu peso em Kg(quilos):");
-        peso=in.nextDouble();
+        double peso=in.nextDouble();
+        
         System.out.println ("Digite sua altura em M(metro):");
-        altura=in.nextDouble();
+        double altura=in.nextDouble();
 
-        imc=peso/(altura*altura);
+        double imc=peso/(altura*altura);
 
         if(imc<18.5){
             System.out.println("IMC: "+imc+" | Você está com excesso de magreza");
