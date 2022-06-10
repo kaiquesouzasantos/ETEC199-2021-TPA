@@ -7,10 +7,10 @@ public class SalarioLiquido{
         System.out.print("Digite o valor da hora de aula: R$");
         double valorHora = in.nextDouble();
         
-        System.out.print("Digite o número de aulas aplicadas no mês:");
+        System.out.print("Digite o número de aulas aplicadas no mês: ");
         int aulas =in.nextDouble();
         
-        System.out.print("Digite o percentual de contribuição ao INSS:");
+        System.out.print("Digite o percentual de contribuição ao INSS: ");
         double imposto = in.nextDouble();
 
         System.out.println("Seu salário liquido estimado é de R$"+((valorHora * aulas) - ((valorHora * aulas) * (imposto/100))));
