@@ -5,21 +5,21 @@ public class FuncaoQtdAzuleijos{
         Scanner in =  new Scanner(System.in);
 
         System.out.print("Altura da parede em centimetros: ");
-        double AlturaP = in.nextDouble();
+        double alturaP = in.nextDouble();
 
         System.out.print("Largura da parede em centimetros: ");
-        double LarguraP = in.nextDouble();
+        double larguraP = in.nextDouble();
 
         System.out.print("Altura do ajuleijo em centimetros: ");
-        double AlturaA = in.nextDouble();
+        double alturaA = in.nextDouble();
 
         System.out.print("Largura do ajuleijo em centimetros: ");
-        double LarguraA = in.nextDouble();
+        double larguraA = in.nextDouble();
 
-        qtd(AlturaA,AlturaP,LarguraA,LarguraP);
+        qtd(alturaA,alturaP,larguraA,larguraP);
     }
 
-    public static void qtd(double AlturaA,double AlturaP,double LarguraA, double LarguraP){
-        System.out.print("São necessários "+(AlturaP*LarguraP)/(AlturaA*LarguraA)+" azuleijos.");
+    public static void qtd(double alturaA,double alturaP,double larguraA, double larguraP){
+        System.out.print("São necessários "+(alturaP*larguraP)/(alturaA*larguraA)+" azuleijos.");
     }
 }
