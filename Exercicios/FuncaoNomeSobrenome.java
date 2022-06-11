@@ -5,15 +5,15 @@ public class FuncaoNomeSobrenome{
         Scanner in =  new Scanner(System.in);
 
         System.out.print("Nome: ");
-        String Nome = in.next();
+        String nome = in.next();
 
         System.out.print("Sobrenome: ");
-        String Sobrenome = in.next();
+        String sobrenome = in.next();
 
-        ImprimirNome(Nome,Sobrenome);
+        imprimirNome(nome, sobrenome);
     }
 
-    public static void ImprimirNome(String Nome,String Sobrenome){
-        System.out.println(Nome+" "+Sobrenome);
+    public static void imprimirNome(String nome,String sobrenome){
+        System.out.println(nome+" "+sobrenome);
     }
 }
