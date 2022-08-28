@@ -9,9 +9,9 @@
 ### CONTEUDO ABORDADO
 
 - Tipos de Dados Primitivos;
-- Operadores: Aritmeticos, Relacionais, Atribuição e Lógicos;
-- Estrutura de Decisão: IF, ELSE, ELSE IF, SWITCH;
-- Estrutura de Repetição: WHILE, DO WHILE, FOR;
+- *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
+- *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
+- *Estrutura de Repetição*: WHILE, DO WHILE, FOR;
 - Vetores e Matrizes;
 - Metodos;
 - Leitura de Informações Externas;
