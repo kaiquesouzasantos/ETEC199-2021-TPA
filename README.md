@@ -1,5 +1,10 @@
 <h1 align=center>ETEC199-2021-TPA</h1>
 
+<p align="center">
+  <img src="etec.png" width="500">
+</p>
+
+#
 ### SOBRE
 
 - Diretório contendo desenvolvimento dos exercícios na disciplina de Técnicas de Programação e Algoritmo(TPA) na Etec Cidade Tiradentes em 2021.
