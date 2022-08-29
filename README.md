@@ -1,7 +1,7 @@
 <h1 align=center>ETEC199-2021-TPA</h1>
 
 <p align="center">
-  <img src="etec.png" width="500">
+  <img src="etec_l.png" width="500">
 </p>
 
 #
