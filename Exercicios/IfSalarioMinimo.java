@@ -2,15 +2,16 @@ import java.util.Scanner;
 
 public class IfSalarioMinimo{
     public static void main(String args[]) {
-        Scanner in = new Scanner (System.in);
-        
-        System.out.print("Digite seu salário:");
-        double salario=in.nextDouble();
+        System.out.print("Digite seu salário: R$");
+        double salario = new Scanner(System.in).nextDouble();
 
-        if (salario>954) {
-            System.out.println ("Seu salário se enquadra na classificação superior a um salário mínimo");
-        } else {
-            System.out.println ("Seu salário se enquadra na classificação inferior a um salário mínimo");
-        }
+        if (salario>954)
+            informaSalario("superior");
+        else
+            informaSalario("inferior");
+    }
+
+    private static void informaSalario(String classificacao) {
+        System.out.println ("Seu salário se enquadra na classificação "+classificacao+" a um salário mínimo");
     }
 }

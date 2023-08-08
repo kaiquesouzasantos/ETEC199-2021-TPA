@@ -2,12 +2,10 @@ import java.util.Scanner;
 
 public class DoWhileFatorial {
     public static void main(String args[]) {
-        Scanner in = new Scanner (System.in);
-
-        int num, fatorial=1;
+        int fatorial=1;
 
         System.out.print("Digite um número inteiro maior que zero: ");
-        num = in.nextInt();
+        int num = new Scanner(System.in).nextInt();
 
         if(num>0){
             do{

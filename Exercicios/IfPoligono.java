@@ -10,7 +10,9 @@ public class IfPoligono {
         System.out.print("INFORME A MEDIDA EM CM: ");
         double medida = in.nextDouble();
 
-        if(lados == 3 || lados == 4 || lados == 5) System.out.println("PERIMETRO: "+(lados * medida));
-        else System.out.println("POLIGONO NÃO IDENTIFICADO!");
+        if(lados >= 3 && lados <= 5)
+            System.out.println("PERIMETRO: "+(lados * medida));
+        else
+            System.out.println("POLIGONO NÃO IDENTIFICADO!");
     }
 }

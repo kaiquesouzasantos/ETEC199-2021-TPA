@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DoWhileSomaComFlag {
     public static void main(String args[]) {
-        Scanner in= new Scanner (System.in);
+        Scanner in = new Scanner(System.in);
 
         int num, soma=0;
         String sequencia;

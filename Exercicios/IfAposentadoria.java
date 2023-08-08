@@ -1,46 +1,35 @@
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class IfAposentadoria {
+    private static final Scanner in = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-
-        int selecao,aAtual,aNascimento,resultado,resultadoA;
-
         System.out.print("Digite conforme seu sexo (1 para feminino, 2 para masculino): ");
-        selecao=in.nextInt();
+        int selecao = in.nextInt();
 
         if(selecao==1){
-            System.out.print("Digite o ano atual: ");
-            aAtual=in.nextInt();
-            
-            System.out.print("Digite seu ano de nascimento: ");
-            aNascimento=in.nextInt();
-            
-            resultado=aAtual-aNascimento;
-            resultadoA=60-resultado;
-            
-            if(resultado<60){
-                System.out.println("Faltam "+resultadoA+" anos para a sua aposentadoria");
-            } else{
-                System.out.println("Você já esta aposentado");
-            }
+            retornaRestanteAposentadoria(60);
         }else if(selecao==2){
-            System.out.print("Digite o ano atual: ");
-            aAtual=in.nextInt();
-            
-            System.out.print("Digite seu ano de nascimento: ");
-            aNascimento=in.nextInt();
-            
-            resultado=aAtual-aNascimento;
-            resultadoA=65-resultado;
-            
-            if(resultado<65){
-                System.out.println("Faltam "+resultadoA+" anos para a sua aposentadoria");
-            } else{
-                System.out.println("Você já esta aposentado");
-            }
+            retornaRestanteAposentadoria(65);
         } else {
             System.out.println("Fim do programa.");
+        }
+    }
+
+    private static void retornaRestanteAposentadoria(int idadeAposenta) {
+        int aAtual = LocalDateTime.now().getYear();
+
+        System.out.print("Digite seu ano de nascimento: ");
+        int aNascimento = in.nextInt();
+
+        int resultado = aAtual-aNascimento;
+        int resultadoA = idadeAposenta-resultado;
+
+        if(resultado < idadeAposenta){
+            System.out.println("Faltam "+resultadoA+" anos para a sua aposentadoria");
+        } else{
+            System.out.println("Você já esta aposentado");
         }
     }
 }

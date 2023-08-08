@@ -1,4 +1,6 @@
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 public class IfMaiorNumero {
     public static void main(String[] args) {
@@ -10,8 +12,9 @@ public class IfMaiorNumero {
         System.out.print("INFORME O SEGUNDO NUMERO: ");
         double num2 = in.nextDouble();
 
-        if(num1 > num2) System.out.println(num1+" É O MAIOR NUMERO!");
-        else if(num1 < num2) System.out.println(num2+" É O MAIOR NUMERO!");
-        else System.out.println("OS NUMEROS SÃO IGUAIS!");
+        if(num1 == num2)
+            System.out.println("OS NUMEROS SÃO IGUAIS!");
+        else
+            System.out.println(Stream.of(num1, num2).max(Double::compareTo).get()+" É O MAIOR NUMERO!");
     }
 }
