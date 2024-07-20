@@ -5,13 +5,13 @@
 </p>
 
 #
-### SOBRE
+### 📚 SOBRE
 
 - Diretório contendo desenvolvimento dos exercícios na disciplina de Técnicas de Programação e Algoritmo(TPA) na Etec Cidade Tiradentes em 2021.
 - Possui pequenos arquivos individuais, submetidos como proposta de solução, com o intuito de atender aos requisitos solicitados.
 
 #
-### CONTEUDO ABORDADO
+### ⭐ CONTEUDO ABORDADO
 
 - Tipos de Dados Primitivos;
 - *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
@@ -22,12 +22,12 @@
 - Leitura de Informações Externas;
 
 #
-### TECNOLOGIA
+### 💻 TECNOLOGIA
 
 ![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=java&logoColor=white&labelColor=0D1117)&nbsp;
 
 #
-### CONTRIBUIÇÃO
+### 🔗 CONTRIBUIÇÃO
 
 ```
 $ git clone https://github.com/kaiquesouzasantos/etec199-2021-tpa.git 
