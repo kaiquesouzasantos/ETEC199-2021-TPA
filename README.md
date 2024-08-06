@@ -1,4 +1,4 @@
-<h1 align=center>ETEC199-2021-TPA</h1>
+<h1 align=center>🌇 ETEC CIDADE TIRADENTES - TÉCNICAS E PROGRAMAÇÃO DE ALGORITMOS</h1>
 
 <p align="center">
   <img src="etec_l.png" width="500">
@@ -30,5 +30,5 @@
 ### 🔗 CONTRIBUIÇÃO
 
 ```
-$ git clone https://github.com/kaiquesouzasantos/etec199-2021-tpa.git 
+$ git clone https://github.com/kaiquesouzasantos/etec-cidade-tiradentes-algoritmos.git 
 ```
